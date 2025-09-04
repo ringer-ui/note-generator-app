@@ -70,7 +70,6 @@ def generate_er_note(text_content):
     @MDNAME@
     Emergency Medicine Physician
 
-    Note: This ED Encounter Note was completed using voice recognition software. It may not have been proofread and there may be errors related to sound-alike phrases and homonyms. Pronoun errors, if present, are unintentional. Verbal consent obtained for any photos included in record. To request error correction contact UHN Health Records.
     """
     try:
         response = model.generate_content(prompt)
