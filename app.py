@@ -39,9 +39,8 @@ def generate_er_note(text_content):
 
     Date of Visit:       @ED@ (dd/mm/yyyy)
     Location:            @DEPTNME@
-    Provider:            Dr. Tessa (TJ) Ringer, Emergency Physician CPSO 112258
 
-    MRN & OHIP:          @MRN@
+    MRN:         @MRN@
     Birth Date & Age:    @BDAY@ | @AGEPEDS@
 
     Primary Concern:     @CHIEFCOMPLAINTNNOLINE@
@@ -49,7 +48,7 @@ def generate_er_note(text_content):
     Appropriate PPE donned and doffed with serial handwashing in accordance with hospital policies.
     Additional notes may appear in the written record.
 
-    Identified myself to the patient as Tessa, requested use of she/her pronouns, and showed the patient my badge indicating name and pronouns.
+    Identified myself to the patient, requested use of my preferred pronouns, and showed the patient my badge indicating name and pronouns.
 
     Triage note, nursing note, past medical history and medications reviewed.
 
@@ -68,8 +67,7 @@ def generate_er_note(text_content):
 
     Refer to ED Course (above) for subsequent assessments and impressions.
 
-    Tessa (TJ) Ringer MD JD CCFP(EM)
-    CPSO #112258
+    @MDNAME@
     Emergency Medicine Physician
 
     Note: This ED Encounter Note was completed using voice recognition software. It may not have been proofread and there may be errors related to sound-alike phrases and homonyms. Pronoun errors, if present, are unintentional. Verbal consent obtained for any photos included in record. To request error correction contact UHN Health Records.
